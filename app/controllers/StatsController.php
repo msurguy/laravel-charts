@@ -16,7 +16,7 @@ class StatsController extends BaseController {
     $stats = DB::table('orders')
     	->where('created_at', '>=', $range)
       ->groupBy('date')
-      ->orderBy('date', 'DESC')
+      ->orderBy('date', 'ASC')
       ->remember(1440) // Cache the data for 24 hours
       ->get([
         DB::raw('Date(created_at) as date'),
