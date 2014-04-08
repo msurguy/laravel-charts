@@ -7,8 +7,9 @@
 @section('content')
 	<div class="row">
 	  <div class="col-md-12">
+      <h1>Dead simple AJAX bar charts with Morris and Laravel</h1>
 	    <ul class="nav nav-pills ranges">
-	      <li><a href="#" data-range='7'>7 Days</a></li>
+	      <li class="active"><a href="#" data-range='7'>7 Days</a></li>
 	      <li><a href="#" data-range='30'>30 Days</a></li>
 	      <li><a href="#" data-range='60'>60 Days</a></li>
 	      <li><a href="#" data-range='90'>90 Days</a></li>
