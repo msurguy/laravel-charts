@@ -12,4 +12,4 @@ php artisan db:seed
 ```
 
 The demo is hosted on Pagodabox here: 
-http://laravel-charts.gopagoda.com
+http://demos.maxoffsky.com/charts
