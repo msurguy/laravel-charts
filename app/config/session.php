@@ -57,6 +57,8 @@ return array(
 
 	'connection' => null,
 
+	'expire_on_close' => false,
+
 	/*
 	|--------------------------------------------------------------------------
 	| Session Database Table
