@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('styles')
-<link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
 @stop
 
 @section('content')
@@ -26,7 +26,7 @@
 @section('scripts')
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
 <script src="//cdn.jsdelivr.net/spinjs/1.3.0/spin.min.js"></script>
 
 <script>
